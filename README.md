@@ -14,7 +14,7 @@
 * <a href="#telegram">Уведомления в Telegram</a>
 
 <a id="tools"></a>
-## Использованный стек технологий
+## :hammer_and_wrench: Использованный стек технологий
 
 <p align="left">
 <a href="https://www.java.com/"><img src="media/logo/Java.svg" width="50" height="50" alt="Java" title="Java"/></a>
@@ -28,3 +28,14 @@
 <a href="https://qameta.io/"><img src="media\logo\Allure_TO.svg" width="50" height="50" alt="Allure_TO" title="Allure_TO"></a>
 </p>
 
+<a id="cases"></a>
+## :clipboard: Реализованные проверки
+
+-  Users tests
+   -  Create user with valid name and job
+   -  Update name of user with existed id
+   -  Delete user with existed id
+   -  Get info about existed user
+-  Register tests
+   -  Register user without password
+   -  Register user without email
