@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d2fe7cf-7d4f-41a6-8846-ddd4adb1dca2" name="Changes" comment="updated .gitignore">
+    <list default="true" id="7d2fe7cf-7d4f-41a6-8846-ddd4adb1dca2" name="Changes" comment="added media">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -225,12 +225,27 @@
       <option name="project" value="LOCAL" />
       <updated>1685564551569</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added media">
+      <created>1685565534816</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685565534816</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added media">
+      <created>1685565716553</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685565716553</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update .gitignore" />
     <MESSAGE value="updated .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated .gitignore" />
+    <MESSAGE value="added media" />
+    <option name="LAST_COMMIT_MESSAGE" value="added media" />
   </component>
 </project>
