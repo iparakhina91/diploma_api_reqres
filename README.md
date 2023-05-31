@@ -58,5 +58,5 @@ test
 -DremoteUrl=${REMOTE_URL}
 ```
 <a id="jenkins"></a>
-## :woman_astronaut: Запуск тестов в Jenkins
+## <img src="media/logo/Jenkins.svg" width="25" height="25"/></a> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/
 Для запуска сборки необходимо перейти в раздел <code><strong>*Собрать с параметрами*</strong></code> и нажать кнопку <code><strong>*Собрать*</strong></code>.
