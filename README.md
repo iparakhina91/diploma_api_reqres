@@ -47,4 +47,12 @@
 ```
 gradle clean test
 ```
-
+### Удаленный запуск тестов
+```
+clean
+test
+-Dbrowser=${BROWSER}
+-DbrowserVersion=${BROWSER_VERSION}
+-DbrowserSize=${BROWSER_SIZE}
+-DremoteUrl=${REMOTE_URL}
+```
