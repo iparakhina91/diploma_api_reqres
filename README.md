@@ -57,3 +57,6 @@ test
 -DbrowserSize=${BROWSER_SIZE}
 -DremoteUrl=${REMOTE_URL}
 ```
+<a id="jenkins"></a>
+## :woman_astronaut: Запуск тестов в Jenkins
+Для запуска сборки необходимо перейти в раздел <code><strong>*Собрать с параметрами*</strong></code> и нажать кнопку <code><strong>*Собрать*</strong></code>.
