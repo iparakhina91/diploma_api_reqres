@@ -83,6 +83,13 @@ test
 -DbrowserSize=${BROWSER_SIZE}
 -DremoteUrl=${REMOTE_URL}
 ```
+### Параметры запуска
+<code>browser</code> – браузер, в котором будут выполняться тесты (_по умолчанию - <code>chrome</code>_).
+<code>browserVersion</code> – версия браузера (_по умолчанию - <code>100</code>_).
+<code>browserSize</code> – размер окна браузера, в котором будут выполняться тесты (_по умолчанию - <code>1920x1080</code>_).
+<code>remoteURL</code> - адрес удаленного сервера, где будут запускаться тесты.
+<code>threads</code> - количество потоков для многопоточного запуска (_по умолчанию - <code>5</code>_).
+
 <a id="jenkins"></a>
 ## <img src="media/logo/Jenkins.svg" width="25" height="25"/></a> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/)
 Для запуска необходимо нажать "Собрать сейчас"
