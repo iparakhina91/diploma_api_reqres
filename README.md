@@ -68,7 +68,7 @@
    -  Register user without email
 
 <a id="console"></a>
-## :technologist: Запуск тестов из терминала
+## :computer: Запуск тестов из терминала
 ### Локальный запуск тестов
 
 ```
