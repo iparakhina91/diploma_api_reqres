@@ -88,7 +88,7 @@ test
 <code>browserVersion</code> – версия браузера (по дефолту - <code>100</code>).\
 <code>browserSize</code> – размер окна браузера, в котором будут выполняться тесты (по дефолту - <code>1920x1080</code>).\
 <code>remoteURL</code> - адрес удаленного сервера, где будут запускаться тесты.\
-<code>threads</code> - количество потоков для многопоточного запуска (по дефолту - <code>5</code>_).
+<code>threads</code> - количество потоков для многопоточного запуска (по дефолту - <code>5</code>).
 
 <a id="jenkins"></a>
 ## <img src="media/logo/Jenkins.svg" width="25" height="25"/></a> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/)
