@@ -5,6 +5,7 @@
  
 ## :bookmark_tabs: Содержание 
 
+* <a href="#annotation">Описание проекта</a>
 * <a href="#tools">Использованный стек технологий</a>
 * <a href="#cases">Реализованные проверки</a>
 * <a href="#console">Запуск тестов из терминала</a>
@@ -13,6 +14,16 @@
 * <a href="#allure-testops">Интеграция с Allure TestOps</a>
 * <a href="#jira">Интеграция с Jira</a>
 * <a href="#telegram">Уведомления в Telegram</a>
+
+<a id="annotation"></a>
+## :hammer_and_wrench: Описание проекта
+Проект состоит из API тестов.\
+Интересные факты о проекте:
+- [x] Для генерации тестовых данных использована библиотека `Faker`
+- [x] Оформление тестовой документации реализовано посредством аннотаций `Allure`
+- [x] Для создания подробных отчетов реализована интеграция с `Allure TestOps`
+- [x] Проект интегрирован с `Jira`
+- [x] Настроена отправка уведомлений в `Telegram` о результатах прохождения автотестов   
 
 <a id="tools"></a>
 ## :hammer_and_wrench: Использованный стек технологий
@@ -29,6 +40,17 @@
 <a href="https://qameta.io/"><img src="media\logo\Allure_TO.svg" width="50" height="50" alt="Allure_TO" title="Allure_TO"></a>
 <a href="https://www.jira.com/"><img src="media\logo\Jira.svg" width="50" height="50" alt="Jira" title="Jira"></a>
 </p>
+
+Автотесты в данном проекте написаны на Java с использованием фреймворка [Selenide](https://selenide.org/).\
+<code>Gradle</code> — используется как инструмент автоматизации сборки.\
+<code>JUnit5</code> — для выполнения тестов.\
+<code>Selenoid</code> — для удаленного запуска браузера в Docker контейнерах.\
+<code>REST Assured</code> — для тестирования REST-API сервисов.\
+<code>Jenkins</code> — CI/CD для запуска тестов удаленно.\
+<code>Allure Report</code> — для визуализации результатов тестирования.\
+<code>Allure TestOps</code> — как система управления тестированием.\
+<code>Jira</code> — как инструмент управления проектом и таск-трекер.\
+<code>Telegram Bot</code> — для уведомлений о результатах тестирования.
 
 <a id="cases"></a>
 ## :clipboard: Реализованные проверки
