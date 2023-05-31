@@ -1,5 +1,4 @@
-﻿<p align="center">
-## Дипломный проект по автоматизации тестирования API для [reqres.in](https://reqres.in/)
+﻿# Дипломный проект по автоматизации тестирования API для [reqres.in](https://reqres.in/)
 
  
 ![reqres_logo](media/logo/reqres_logo.png)
@@ -18,7 +17,7 @@
 <a id="tools"></a>
 ## :hammer_and_wrench: Использованный стек технологий
 
-<p align="left">
+<p align="center">
 <a href="https://www.java.com/"><img src="media/logo/Java.svg" width="50" height="50" alt="Java" title="Java"/></a>
 <a href="https://www.jetbrains.com/idea/"><img src="media/logo/Intelij_IDEA.svg" width="50" height="50"  alt="IDEA" title="IntelliJ IDEA"/></a>
 <a href="https://github.com/"><img src="media/logo/GitHub.svg" width="50" height="50" alt="Github" title="GitHub"/></a>
