@@ -2,7 +2,7 @@
  
 ![reqres_logo](media/logo/reqres_logo.png)
  
-## :open_book: Содержание 
+## :bookmark_tabs: Содержание 
 
 * <a href="#tools">Использованный стек технологий</a>
 * <a href="#cases">Реализованные проверки</a>
@@ -39,3 +39,12 @@
 -  Register tests
    -  Register user without password
    -  Register user without email
+
+<a id="console"></a>
+## :technologist: Запуск тестов из терминала
+### Локальный запуск тестов
+
+```
+gradle clean test
+```
+
