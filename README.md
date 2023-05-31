@@ -59,5 +59,17 @@ test
 ```
 <a id="jenkins"></a>
 ## <img src="media/logo/Jenkins.svg" width="25" height="25"/></a> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/)
-### Для запуска необходимо нажать "Собрать сейчас"
-### При клике на сборку после завершения можно увидеть артефакты запуска и полезные ссылки для более детального изучения результатов прогона.
+Для запуска необходимо нажать "Собрать сейчас"
+При клике на сборку после завершения можно увидеть артефакты запуска и полезные ссылки для более детального изучения результатов прогона.
+
+<a id="allure"></a>
+## <img width="4%" title="Allure Report" src="media/logo/Allure_Report.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/)
+
+<a id="allure-testops"></a> 
+## <img width="4%" title="Allure TestOPS" src="media/logo/Allure_TO.svg"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/)
+
+<a id="jira"></a> 
+## <img src="media/logo/Jira.svg" width="25" height="25"/></a> Интеграция с [Jira](https://jira.autotests.cloud/)
+
+<a id="telegram"></a> 
+## <img src="media/logo/Telegram.svg" width="25" height="25"/></a> Уведомления в Telegram
