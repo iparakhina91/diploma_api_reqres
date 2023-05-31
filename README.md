@@ -3,7 +3,7 @@
  
 ![reqres_logo](media/logo/reqres_logo.png)
  
-## :bookmark_tabs: Содержание 
+## :bricks: Содержание 
 
 * <a href="#annotation">Описание проекта</a>
 * <a href="#tools">Технологии и инструменты</a>
