@@ -1,4 +1,5 @@
 ﻿# Дипломный проект по автоматизации тестирования API для [reqres.in](https://reqres.in/)
+ <p align="center">
  
 ![reqres_logo](media/logo/reqres_logo.png)
  
