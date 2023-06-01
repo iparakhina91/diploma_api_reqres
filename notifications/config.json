@@ -1,6 +1,6 @@
 {
   "base": {
-    "logo": "",
+    "logo": "media/logo/notification.jpg",
     "project": "Diploma API reqres",
     "environment": "local",
     "comment": "Reports of autotests",
