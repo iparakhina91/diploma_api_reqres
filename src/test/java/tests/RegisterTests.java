@@ -15,14 +15,14 @@ import static specs.Specs.response400;
 import static tests.TestData.fakeEmail;
 import static tests.TestData.fakePassword;
 
+@Tag("api")
+@Feature("Register tests")
+@Story("Unsuccessful register user")
+@Owner("korovina_iyu")
+@Severity(SeverityLevel.NORMAL)
 public class RegisterTests {
 
     @Test
-    @Tag("api")
-    @Feature("Register tests")
-    @Story("Unsuccessful register user")
-    @Owner("korovina_iyu")
-    @Severity(SeverityLevel.NORMAL)
     @DisplayName("Register user without password")
     void registerMissingPasswordTest() {
 
@@ -43,11 +43,6 @@ public class RegisterTests {
     }
 
     @Test
-    @Tag("api")
-    @Feature("Register tests")
-    @Story("Unsuccessful register user")
-    @Owner("korovina_iyu")
-    @Severity(SeverityLevel.NORMAL)
     @DisplayName("Register user without email")
     void registerMissingEmailTest() {
 

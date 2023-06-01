@@ -14,16 +14,16 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static specs.Specs.*;
 import static tests.TestData.*;
 
+@Tag("api")
+@Feature("Users tests")
+@Story("Available actions with user")
+@Owner("korovina_iyu")
+@Severity(SeverityLevel.CRITICAL)
 public class UsersTests {
 
     public static final Integer USERID = 7;
 
     @Test
-    @Tag("api")
-    @Feature("Users tests")
-    @Story("Create user")
-    @Owner("korovina_iyu")
-    @Severity(SeverityLevel.CRITICAL)
     @DisplayName("Create user with valid name and job")
     void createUser() {
 
@@ -48,11 +48,6 @@ public class UsersTests {
     }
 
     @Test
-    @Tag("api")
-    @Feature("Users tests")
-    @Story("Update user")
-    @Owner("korovina_iyu")
-    @Severity(SeverityLevel.NORMAL)
     @DisplayName("Update name of user with existed id")
     void updateUser() {
 
@@ -74,11 +69,6 @@ public class UsersTests {
     }
 
     @Test
-    @Tag("api")
-    @Feature("Users tests")
-    @Story("Delete user")
-    @Owner("korovina_iyu")
-    @Severity(SeverityLevel.NORMAL)
     @DisplayName("Delete user with existed id")
     void deleteUser() {
         step("Delete user with id " + fakeId, () ->
@@ -91,11 +81,6 @@ public class UsersTests {
     }
 
     @Test
-    @Tag("api")
-    @Feature("Users tests")
-    @Story("Get user info")
-    @Owner("korovina_iyu")
-    @Severity(SeverityLevel.NORMAL)
     @DisplayName("Get info about existed user")
     void getInfoAboutSingleUser() {
 

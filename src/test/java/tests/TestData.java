@@ -12,7 +12,7 @@ public class TestData {
             fakeName = getFakeName(),
             fakeJob = getFakeJob(),
             fakeEmail = getFakeEmail(),
-    fakePassword = getFakePassword();
+            fakePassword = getFakePassword();
 
     public static final Integer
             fakeId = getFakeUserId();
