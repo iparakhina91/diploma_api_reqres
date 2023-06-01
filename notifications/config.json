@@ -6,7 +6,7 @@
     "comment": "Report on the results of API tests",
     "reportLink": "",
     "language": "ru",
-    "allureFolder": "build/allure-report/",
+    "allureFolder": "allure-report/",
     "enableChart": true
   },
   "telegram": {
