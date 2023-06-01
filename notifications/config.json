@@ -1,10 +1,10 @@
 {
   "base": {
     "logo": "media/logo/notification.jpg",
-    "project": "Diploma API reqres",
+    "project": "18-ikorovina91-diploma-api-reqres",
     "environment": "local",
-    "comment": "Reports of autotests",
-    "reportLink": "",
+    "comment": "API autotests results",
+    "reportLink": "https://jenkins.autotests.cloud/job/18-ikorovina91-diploma-api-reqres/",
     "language": "en",
     "allureFolder": "allure-report/",
     "enableChart": true
