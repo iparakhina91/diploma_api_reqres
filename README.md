@@ -22,11 +22,10 @@
 <code>Цель тестирования</code> - убедиться, что интерфейс прикладной программы соответствует ожидаемой функциональности, безопасности, производительности и надежности. 
 
 <code>Интересные факты о проекте:</code>
-- для структурирования кода использована модель `Page Object`
 - тестовая документация оформлена с использованием аннотаций `Allure`
 - тестовые данные сгенерированы с помощью библиотеки `Faker`
 - для создания подробных отчетов реализована интеграция с `Allure TestOps`
-- в целях получения информации о статусах исполнения тикетов, прилинкованных к тест-кейсам, реализована интеграция  с `Jira`
+- в целях получения информации о статусах тикетов, прилинкованных к тест-кейсам, реализована интеграция  с `Jira`
 - настроена отправка уведомлений в `Telegram` о результатах прохождения автотестов   
 
 <a id="tools"></a>
@@ -59,14 +58,15 @@
 <a id="cases"></a>
 ## :clipboard: Реализованные проверки
 
--  Users tests
-   -  Create user with valid name and job
-   -  Update name of user with existed id
-   -  Delete user with existed id
-   -  Get info about existed user
--  Register tests
-   -  Register user without password
-   -  Register user without email
+<code>Users tests</code>
+-  Create user with valid name and job
+-  Update name of user with existed id
+-  Delete user with existed id
+-  Get info about existed user
+
+<code>Register tests</code>
+-  Register user without password
+-  Register user without email
 
 <a id="console"></a>
 ## :computer: Запуск тестов из терминала
@@ -88,64 +88,64 @@ api_test
 <code>browser</code> – браузер, в котором будут выполняться тесты\
 <code>browser_version</code> – версия браузера\
 <code>browser_size</code> – размер окна браузера, в котором будут выполняться тесты\
-<code>remote_url</code> - адрес удаленного сервера, где будут запускаться тесты\
+<code>remote_url</code> - адрес удаленного сервера, где будут запускаться тесты
 
 <a id="jenkins"></a>
 ## <img src="media/logo/Jenkins.svg" width="25" height="25"/></a> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/18-ikorovina91-diploma-api-reqres/)
-Для запуска тестов необходимо нажать кнопку <code><strong>Собрать с параметрами</strong></code>, установить параметры сборки и кликнуть по кнопке <code><strong>Собрать</strong></code>.
+Для запуска тестов необходимо нажать кнопку <code>Собрать с параметрами</code>, установить параметры сборки и кликнуть по кнопке <code>Собрать</code>
 
 <p align="center">
-  <img src="media/screenshots/sborka_jenkins.png" alt="Jenkins" width="800">
+  <img src="media/screenshots/sborka_jenkins.png" alt="Jenkins" width="1000">
 </p>
 
 После завершения прогона для просмотра будут доступны артефакты запуска и полезные ссылки в целях более детального изучения результатов прохождения тестов.
 
 <p align="center">
-  <img src="media/screenshots/jenkins_results.png" alt="Jenkins" width="800">
+  <img src="media/screenshots/jenkins_results.png" alt="Jenkins" width="1000">
 </p>
 
 <a id="allure"></a>
 ## <img src="media/logo/Allure_Report.svg" width="25" height="25"/></a> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/18-ikorovina91-diploma-api-reqres/5/allure/)
 
-Одним из результатов сборки является Allure Report, в котором помимо просмотра итогового отчета на странице теста можно ознакомиться с пошаговым выполнением кода
+Одним из результатов сборки является <code>Allure Report</code>, в котором помимо просмотра итогового отчета на странице теста можно ознакомиться с пошаговым выполнением кода
 
 <p align="center">
-  <img src="media/screenshots/allure.png" alt="allure" width="800">
+  <img src="media/screenshots/allure_overview.png" alt="allure" width="1000">
 </p>
 
 <p align="center">
-  <img src="media/screenshots/allure_overview.png" alt="allure" width="800">
+  <img src="media/screenshots/allure.png" alt="allure" width="1000">
 </p>
 
 <a id="allure-testops"></a> 
 ## <img src="media/logo/Allure_TO.svg" width="25" height="25"/></a> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/2537/dashboards)
 
-Реализованная в проекте интеграция с Allure TestOps позволяет не только ознакомиться с отчетом о результатах прохождения тестов, но и запускать автотесты и наблюдать за результатом их выполнения в режиме реального времени. При этом, возможности Allure TestOps позволяют выбирать, какие именно тесты запускать. 
+Реализованная в проекте интеграция с <code>Allure TestOps</code> позволяет не только ознакомиться с отчетом о результатах прохождения тестов, но и запускать автотесты и наблюдать за результатом их выполнения в режиме реального времени. При этом, возможности Allure TestOps позволяют выбирать, какие именно тесты запускать. 
 
 <p align="center">
-  <img src="media/screenshots/allure_dashboard.png" alt="allure-testops" width="800">
+  <img src="media/screenshots/allure_dashboard.png" alt="allure-testops" width="1000">
 </p>
 
 <p align="center">
-  <img src="media/screenshots/allureOPS_launches.png" alt="allure-testops" width="800">
+  <img src="media/screenshots/allureOPS_launches.png" alt="allure-testops" width="1000">
 </p>
 
 <p align="center">
-  <img src="media/screenshots/run_tests_allure.png" alt="allure-testops" width="800">
+  <img src="media/screenshots/run_tests_allure.png" alt="allure-testops" width="1000">
 </p>
 
 <a id="jira"></a> 
 ## <img src="media/logo/Jira.svg" width="25" height="25"/></a> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-726)
 
 <p align="center">
-  <img src="media/screenshots/jira.png" alt="jira" width="800">
+  <img src="media/screenshots/jira.png" alt="jira" width="1000">
 </p>
 
 <a id="telegram"></a> 
 ## <img src="media/logo/Telegram.svg" width="25" height="25"/></a> Уведомления в Telegram
 
-После завершения прогона в Jenkins с помощью бота осуществляется отправка уведомления в Telegram о результатах прохождения тестов
+После завершения прогона в Jenkins с помощью бота осуществляется отправка уведомления в <code>Telegram</code> о результатах прохождения тестов
 
-<p align="center">
-  <img src="media/screenshots/telegram.png" alt="telegram" width="800">
+<p align="left">
+  <img src="media/screenshots/telegram.png" alt="telegram" width="500">
 </p>
