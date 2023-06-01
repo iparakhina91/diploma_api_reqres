@@ -1,0 +1,17 @@
+{
+  "base": {
+    "logo": "",
+    "project": "Diploma API Reqres",
+    "environment": "Web",
+    "comment": "Report on the results of API tests",
+    "reportLink": "",
+    "language": "ru",
+    "allureFolder": "build/allure-report/",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "6278054992:AAEat1xnoVM7l6t7KFeX0omcLUBdW2fxyPI",
+    "chat": "-1001955585635",
+    "replyTo": ""
+  }
+}
