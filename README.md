@@ -102,7 +102,7 @@ test
 ## <img src="media/logo/Allure_TO.svg" width="25" height="25"/></a> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/2537/dashboards)
 
 <a id="jira"></a> 
-## <img src="media/logo/Jira.svg" width="25" height="25"/></a> Интеграция с [Jira](https://jira.autotests.cloud/)
+## <img src="media/logo/Jira.svg" width="25" height="25"/></a> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-726)
 
 <a id="telegram"></a> 
 ## <img src="media/logo/Telegram.svg" width="25" height="25"/></a> Уведомления в Telegram
