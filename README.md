@@ -3,9 +3,10 @@
  
 ![reqres_logo](media/logo/reqres_logo.png)
  
-## :bookmark_tabs: Содержание 
+## :bricks: Содержание 
 
-* <a href="#tools">Использованный стек технологий</a>
+* <a href="#annotation">Описание проекта</a>
+* <a href="#tools">Технологии и инструменты</a>
 * <a href="#cases">Реализованные проверки</a>
 * <a href="#console">Запуск тестов из терминала</a>
 * <a href="#jenkins">Запуск тестов в Jenkins</a>
@@ -14,8 +15,21 @@
 * <a href="#jira">Интеграция с Jira</a>
 * <a href="#telegram">Уведомления в Telegram</a>
 
+<a id="annotation"></a>
+## :memo: Описание проекта
+Проект состоит из API тестов, в результате которых анализируется интерфейс прикладной программы (API) сайта [reqres.in](https://reqres.in/). Тесты выполняются путем отправки запросов к конечным точкам API и сравнения ответа с ожидаемыми результатами.
+
+<code>Цель тестирования</code> - убедиться, что интерфейс прикладной программы соответствует ожидаемой функциональности, безопасности, производительности и надежности. 
+
+<code>Интересные факты о проекте:</code>
+- для структурирования кода использована модель `Page Object`
+- тестовая документация оформлена с использованием аннотаций `Allure`
+- тестовые данные сгенерированы с помощью библиотеки `Faker`
+- для создания подробных отчетов реализована интеграция с `Allure TestOps`
+- настроена отправка уведомлений в `Telegram` о результатах прохождения автотестов   
+
 <a id="tools"></a>
-## :hammer_and_wrench: Использованный стек технологий
+## :hammer_and_wrench: Технологии и инструменты
 
 <p align="left">
 <a href="https://www.java.com/"><img src="media/logo/Java.svg" width="50" height="50" alt="Java" title="Java"/></a>
@@ -27,7 +41,19 @@
 <a href="https://www.jenkins.io/"><img src="media/logo/Jenkins.svg" width="50" height="50" alt="Jenkins" title="Jenkins"/></a>
 <a href="https://web.telegram.org/"><img src="media\logo\Telegram.svg" width="50" height="50" alt="Telegram" title="Telegram"></a>
 <a href="https://qameta.io/"><img src="media\logo\Allure_TO.svg" width="50" height="50" alt="Allure_TO" title="Allure_TO"></a>
+<a href="https://www.jira.com/"><img src="media\logo\Jira.svg" width="50" height="50" alt="Jira" title="Jira"></a>
 </p>
+
+Автотесты в данном проекте написаны на Java с использованием фреймворка [Selenide](https://selenide.org/).\
+<code>Gradle</code> — используется как инструмент автоматизации сборки.\
+<code>JUnit5</code> — для выполнения тестов.\
+<code>Selenoid</code> — для удаленного запуска браузера в Docker контейнерах.\
+<code>REST Assured</code> — для тестирования REST-API сервисов.\
+<code>Jenkins</code> — CI/CD для запуска тестов удаленно.\
+<code>Allure Report</code> — для визуализации результатов тестирования.\
+<code>Allure TestOps</code> — как система управления тестированием.\
+<code>Jira</code> — как инструмент управления проектом и таск-трекер.\
+<code>Telegram Bot</code> — для уведомлений о результатах тестирования.
 
 <a id="cases"></a>
 ## :clipboard: Реализованные проверки
@@ -42,7 +68,7 @@
    -  Register user without email
 
 <a id="console"></a>
-## :technologist: Запуск тестов из терминала
+## :computer: Запуск тестов из терминала
 ### Локальный запуск тестов
 
 ```
@@ -57,16 +83,23 @@ test
 -DbrowserSize=${BROWSER_SIZE}
 -DremoteUrl=${REMOTE_URL}
 ```
+### Параметры запуска
+<code>browser</code> – браузер, в котором будут выполняться тесты (_по дефолту - <code>chrome</code>_)\
+<code>browserVersion</code> – версия браузера (_по дефолту - <code>100</code>_)\
+<code>browserSize</code> – размер окна браузера, в котором будут выполняться тесты (_по дефолту - <code>1920x1080</code>_)\
+<code>remoteURL</code> - адрес удаленного сервера, где будут запускаться тесты\
+<code>threads</code> - количество потоков для многопоточного запуска (_по дефолту - <code>5</code>_)
+
 <a id="jenkins"></a>
 ## <img src="media/logo/Jenkins.svg" width="25" height="25"/></a> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/)
 Для запуска необходимо нажать "Собрать сейчас"
 При клике на сборку после завершения можно увидеть артефакты запуска и полезные ссылки для более детального изучения результатов прогона.
 
 <a id="allure"></a>
-## <img width="4%" title="Allure Report" src="media/logo/Allure_Report.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/)
+## <img src="media/logo/Allure_Report.svg" width="25" height="25"/></a> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/)
 
 <a id="allure-testops"></a> 
-## <img width="4%" title="Allure TestOPS" src="media/logo/Allure_TO.svg"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/)
+## <img src="media/logo/Allure_TO.svg" width="25" height="25"/></a> Интеграция с [Allure TestOps](https://allure.autotests.cloud/)
 
 <a id="jira"></a> 
 ## <img src="media/logo/Jira.svg" width="25" height="25"/></a> Интеграция с [Jira](https://jira.autotests.cloud/)
