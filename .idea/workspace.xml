@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d2fe7cf-7d4f-41a6-8846-ddd4adb1dca2" name="Changes" comment="updated tests">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notifications/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/notifications/config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notifications/draft.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notifications/draft.txt" afterDir="false" />
     </list>
@@ -276,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685632312324</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="updated tests">
+      <created>1685635982715</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1685635982715</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
