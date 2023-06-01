@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d2fe7cf-7d4f-41a6-8846-ddd4adb1dca2" name="Changes" comment="updated tests">
-      <change afterPath="$PROJECT_DIR$/notifications/allure-notifications-4.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifications/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifications/draft.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/logo/notification.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/logo/notification.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,8 +80,8 @@
       <recent name="C:\Users\Irina\IdeaProjects\diploma_api_reqres\notifications" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Irina\IdeaProjects\diploma_api_reqres\notifications" />
       <recent name="C:\Users\Irina\IdeaProjects\diploma_api_reqres\media\logo" />
+      <recent name="C:\Users\Irina\IdeaProjects\diploma_api_reqres\notifications" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.diploma_api_reqres [allureServe]">
@@ -316,7 +313,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685640637227</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="updated tests">
+      <created>1685643298520</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1685643298520</updated>
+    </task>
+    <task id="LOCAL-00016" summary="updated tests">
+      <created>1685644177618</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1685644177618</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
