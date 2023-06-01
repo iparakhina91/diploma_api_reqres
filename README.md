@@ -110,11 +110,11 @@ api_test
 Одним из результатов сборки является <code>Allure Report</code>, в котором помимо просмотра итогового отчета на странице теста можно ознакомиться с пошаговым выполнением кода
 
 <p align="center">
-  <img src="media/screenshots/allure.png" alt="allure" width="1000">
+  <img src="media/screenshots/allure_overview.png" alt="allure" width="1000">
 </p>
 
 <p align="center">
-  <img src="media/screenshots/allure_overview.png" alt="allure" width="1000">
+  <img src="media/screenshots/allure.png" alt="allure" width="1000">
 </p>
 
 <a id="allure-testops"></a> 
@@ -146,6 +146,6 @@ api_test
 
 После завершения прогона в Jenkins с помощью бота осуществляется отправка уведомления в <code>Telegram</code> о результатах прохождения тестов
 
-<p align="center">
+<p align="left">
   <img src="media/screenshots/telegram.png" alt="telegram" width="500">
 </p>
