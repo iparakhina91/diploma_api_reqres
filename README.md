@@ -91,7 +91,7 @@ test
 <code>threads</code> - количество потоков для многопоточного запуска (_по дефолту - <code>5</code>_)
 
 <a id="jenkins"></a>
-## <img src="media/logo/Jenkins.svg" width="25" height="25"/></a> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/)
+## <img src="media/logo/Jenkins.svg" width="25" height="25"/></a> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/18-ikorovina91-diploma-api-reqres/)
 Для запуска необходимо нажать "Собрать сейчас"
 При клике на сборку после завершения можно увидеть артефакты запуска и полезные ссылки для более детального изучения результатов прогона.
 
