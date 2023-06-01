@@ -96,10 +96,10 @@ test
 При клике на сборку после завершения можно увидеть артефакты запуска и полезные ссылки для более детального изучения результатов прогона.
 
 <a id="allure"></a>
-## <img src="media/logo/Allure_Report.svg" width="25" height="25"/></a> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/)
+## <img src="media/logo/Allure_Report.svg" width="25" height="25"/></a> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/18-ikorovina91-diploma-api-reqres/5/allure/)
 
 <a id="allure-testops"></a> 
-## <img src="media/logo/Allure_TO.svg" width="25" height="25"/></a> Интеграция с [Allure TestOps](https://allure.autotests.cloud/)
+## <img src="media/logo/Allure_TO.svg" width="25" height="25"/></a> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/2537/dashboards)
 
 <a id="jira"></a> 
 ## <img src="media/logo/Jira.svg" width="25" height="25"/></a> Интеграция с [Jira](https://jira.autotests.cloud/)
