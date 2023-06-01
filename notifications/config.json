@@ -1,12 +1,12 @@
 {
   "base": {
-    "logo": "",
-    "project": "Homework",
-    "environment": "Web",
-    "comment": "Here your report",
+    "logo": "logo.png",
+    "project": "some project",
+    "environment": "some env",
+    "comment": "some comment",
     "reportLink": "",
-    "language": "ru",
-    "allureFolder": "allure-report/",
+    "language": "en",
+    "allureFolder": "build/allure-report/",
     "enableChart": true
   },
   "telegram": {
