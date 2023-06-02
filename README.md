@@ -89,7 +89,7 @@ api_test
 -Dbrowser_size=${browser_size}
 -Dremote_url=${remote_url}
 ```
-### Параметры запуска
+<sub>**Параметры запуска**</sub>
 <code>browser</code> – браузер, в котором будут выполняться тесты\
 <code>browser_version</code> – версия браузера\
 <code>browser_size</code> – размер окна браузера, в котором будут выполняться тесты\
