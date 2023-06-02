@@ -89,11 +89,11 @@ api_test
 -Dbrowser_size=${browser_size}
 -Dremote_url=${remote_url}
 ```
-<sub>**Параметры запуска**</sub>\
-<sub><code>browser</code> – браузер, в котором будут выполняться тесты</sub>\
+<sub>**где:**</sub>\
+<sub><code>browser</code> – браузер</sub>\
 <sub><code>browser_version</code> – версия браузера</sub>\
-<sub><code>browser_size</code> – размер окна браузера, в котором будут выполняться тесты</sub>\
-<sub><code>remote_url</code> - адрес удаленного сервера, где будут запускаться тесты</sub>
+<sub><code>browser_size</code> – размер окна браузера</sub>\
+<sub><code>remote_url</code> - адрес удаленного сервера, на котором будут запускаться тесты</sub>
 
 <a id="jenkins"></a>
 ## <img src="media/logo/Jenkins.svg" width="25" height="25"/></a> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/18-ikorovina91-diploma-api-reqres/)
