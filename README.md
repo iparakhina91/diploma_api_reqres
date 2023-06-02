@@ -63,15 +63,15 @@
 <a id="cases"></a>
 ## :clipboard: Реализованные проверки
 
-<code>Users tests</code>
--  Create user with valid name and job
--  Update name of user with existed id
--  Delete user with existed id
--  Get info about existed user
+<code>Пользовательские проверки</code>
+-  Создание пользователя с валидным именем и работой
+-  Изменение имени существующего пользователя
+-  Удаление существующего пользователя
+-  Получение информации о существующем пользователе
 
-<code>Register tests</code>
--  Register user without password
--  Register user without email
+<code>Негативные проверки на регистрацию пользователя</code>
+-  Регистрация пользователя без указания пароля
+-  Регистрация пользователя без указания почты
 
 <a id="console"></a>
 ## :computer: Запуск тестов из терминала
