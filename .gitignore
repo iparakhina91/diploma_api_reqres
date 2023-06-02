@@ -27,8 +27,6 @@
 .idea/
 .allure/
 .gradle/
-.gradle/gradle-wrapper.jar
-.gradle/gradle-wrapper.properties
 allure-results/
 build/
 bin/
