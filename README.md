@@ -1,4 +1,4 @@
-﻿# Дипломный проект по автоматизации тестирования API для [reqres.in](https://reqres.in/)
+﻿# Дипломный проект по автоматизации тестирования API сайта [reqres.in](https://reqres.in/)
 
  
 ![reqres_logo](media/logo/reqres_logo.png)
@@ -114,10 +114,12 @@ api_test
 
 Одним из результатов сборки является **Allure Report**, в котором помимо просмотра итогового отчета на странице теста можно ознакомиться с пошаговым выполнением кода
 
+<sub>Пример отображения итогового отчета</sub>
 <p align="center">
   <img src="media/screenshots/allure_overview.png" alt="allure" width="1000">
 </p>
 
+<sub>Пример отображения результатов проверок в разрезе тестов</sub>
 <p align="center">
   <img src="media/screenshots/allure.png" alt="allure" width="1000">
 </p>
@@ -127,14 +129,17 @@ api_test
 
 Реализованная в проекте интеграция с **Allure TestOps** позволяет не только ознакомиться с отчетом о результатах прохождения тестов, но и запускать автотесты и наблюдать за результатом их выполнения в режиме реального времени. При этом, возможности Allure TestOps позволяют выбирать, какие именно тесты запускать. 
 
+<sub>Пример отображения раздела Dashboard</sub>
 <p align="center">
   <img src="media/screenshots/allure_dashboard.png" alt="allure-testops" width="1000">
 </p>
 
+<sub>Пример отображения раздела Launches</sub>
 <p align="center">
   <img src="media/screenshots/allureOPS_launches.png" alt="allure-testops" width="1000">
 </p>
 
+<sub>Возможность вапуска теста из Allure TestOps</sub>
 <p align="center">
   <img src="media/screenshots/run_tests_allure.png" alt="allure-testops" width="1000">
 </p>
@@ -144,6 +149,7 @@ api_test
 
 Реализованная интеграция с **Jira** позволяет отслеживать статус заведенных задач и дефектов в багтрекере 
 
+<sub>Пример задачи, прилинкованной к тест-кейсам и прогону</sub>
 <p align="center">
   <img src="media/screenshots/jira.png" alt="jira" width="1000">
 </p>
@@ -153,6 +159,7 @@ api_test
 
 После завершения прогона в Jenkins с помощью бота осуществляется отправка уведомления в **Telegram** о результатах прохождения тестов
 
+<sub>Пример уведомления</sub>
 <p align="left">
   <img src="media/screenshots/telegram.png" alt="telegram" width="500">
 </p>
